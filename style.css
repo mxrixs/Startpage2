@@ -1,0 +1,86 @@
+@media (viewport <= 1000px) {
+  .imageContainer{
+    width: 60vw;
+    height; 40vw;
+  }
+}
+h1{
+  text-size: 25px;
+  margin-left: 4em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+}
+h2{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 1.4em;
+  margin: 0.5em;
+  text-align: center;
+}
+a{
+  color: #6AFFED;
+  text-decoration:
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  text-decoration: none;
+  margin: 0.27em;
+}
+p{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 200;
+  font-size: 0.9em;
+  margin: 0.27em;
+  padding-left: 0.4em;
+}
+img{
+  margin-left: 10%;
+  border-style: solid;
+  border-color: aqua;
+  border-width: 1%;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px #111;
+}
+.imageContainer {
+  max-width: 50vw;
+  margin: auto;
+}
+.deer{
+  Width: 50%;
+  transform: translateX(73%)
+             translateY(-23%);
+}
+.fish{
+  Width: 50%;
+  object-position: 40%;
+}
+main{
+  background-color: teal;
+  border-style: solid;
+  border-color: teal;
+  border-radius: 6px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 11.11112vw 16.66667vw 1.5vw 16.66667vw 1.5vw 16.66667vw 1.5vw 16.66667vw 11.11112vw;
+  background-color: teal;
+}
+.grid-item {
+  font-size: 17px;
+  text-align: center;
+  display: inline-block;
+  border-style: solid;
+  border-color: #03161A;
+  border-radius: 4%;
+  background-color: #03161A;
+  text-align: left;
+}
+#leer{
+  background-color: teal;
+  border-style: none;
+}
+#gefüllt{
+  box-shadow: 0px 1px 0px #03161A;
+}
+.links{
+  color: #6AFFED
+}
