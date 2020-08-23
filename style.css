@@ -25,6 +25,10 @@ a{
   text-decoration: none;
   margin: 0.27em;
 }
+a:focus,
+a:hover {
+  color: #4CB5A8;
+}
 p{
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
@@ -40,9 +44,16 @@ img{
   border-radius: 5px;
   box-shadow: 2px 2px 5px #111;
 }
+.PlaceHolder{
+  margin: auto;
+  width: 50vw;
+  height: 30vw;
+}
 .imageContainer {
   max-width: 50vw;
   margin: auto;
+  position: fixed; left: 25vw; top: 2vw;
+  visibility: hidden;
 }
 .deer{
   Width: 50%;
@@ -53,6 +64,23 @@ img{
   Width: 50%;
   object-position: 40%;
 }
+.tableGame{
+  max-width: 50vw;
+  margin: auto;
+  position: fixed; right: 37.5vw; top: 5vw;
+  visibility: visible;
+}
+td{
+	padding:2px;
+	text-align: center;
+	width: 50px;
+	height: 50px;
+	font-size:30px;
+	transition: 0.2s ease;
+	outline: none;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #03161A;
+}
 main{
   background-color: teal;
   border-style: solid;
@@ -61,7 +89,7 @@ main{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 11.11112vw 16.66667vw 1.5vw 16.66667vw 1.5vw 16.66667vw 1.5vw 16.66667vw 11.11112vw;
+  grid-template-columns: 13.11112vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 13.11112vw;
   background-color: teal;
 }
 .grid-item {
@@ -82,5 +110,49 @@ main{
   box-shadow: 0px 1px 0px #03161A;
 }
 .links{
-  color: #6AFFED
+  color: #6AFFED;
+}
+.searchbar{
+  position: sticky; left: 25vw;
+}
+input {
+  width: 50vw;
+  height: 2vw;
+  background-color: teal;
+  border-radius: 2em;
+  color: rgb(3, 22, 26);
+  text-align: left;
+  border-style: double;
+  border-color: rgb(3, 22, 26);
+  border-width: 0.8vw;
+  font-size: 0.88em;
+  margin-bottom: 2vw;
+  padding-left: 0.6em;
+}
+form {
+  margin: 0;
+  text-align: center;
+  margin-bottom: 2vw;
+}
+#searchbar{
+  grid-template-columns: 25vw 50vw 25vw;
+}
+.buttonGame{
+  position: fixed; right: -3.5vw; top: 5vw;
+}
+.buttonGame:hover{
+  position: fixed; right: 0vw; top: 5vw;
+  transform    : translateX(-0.8vw) !important;
+  transition   : all 0.2s ease-in-out;
+}
+#Play{
+  	background-color: #03161A;
+  	box-shadow: 0px 1px 3px #03161A;
+    border: 10px;
+    color: #6AFFED;
+    border-radius: 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

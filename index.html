@@ -3,20 +3,33 @@
     <head>
       <meta charset="utf-8">
       <meta name="description" content="Yay">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <script type="text/javascript" src="script.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"
+      <script type="text/javascript", src="TicTacToe.js"></script>
       <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;600&display=swap" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="style.css">
       <title>My first onw Website!</title>
     </head>
-
+    <div class="buttonGame">
+      <button id="Play" >Play</button>
+    </div>
     <body style="background-color: teal">
-      <h1 style="color: aqua"> Welcome, Marius </h1>
-      <p style="color: #6AFFED">  </p>
-      <div class="imageContainer">
+      <div class="PlaceHolder"></div>
+      <div class="imageContainer" id="Images">
          <img class="fish" src="water.gif">
          <img class="deer" src="deer.gif">
        </div>
+       <div class="grid-container" id="searchbar">
+         <div class="grid-item" id="leer">
+         </div>
+         <div class="grid-item" id="leer">
+         <div class="searchbar">
+           <form method="get" action="https://www.ecosia.org/search">
+             <input type="text" name="q">
+          </div>
+          </div>
+          <div class="grid-item" id="leer">
+          </div>
+        </div>
         <main>
           <div class="links">
             <div class="grid-container">
@@ -24,10 +37,10 @@
                </div>
                <div class="grid-item" id="gefüllt">
                  <h2> General </h2>
-                 <p> > <a href="https://github.com/">Git</a></p>
                  <p> > <a href="https://www.youtube.com/">Youtube</a></p>
                  <p> > <a href="https://imgur.com/upload?beta">Imgur</a></p>
                  <p> > <a href="https://pastebin.com/">Pastebin</a></p>
+                 <p> > <a href="https://amazon.com/">Amazon</a></p>
                </div>
                <div class="grid-item" id="leer">
                </div>
@@ -41,21 +54,41 @@
                <div class="grid-item" id="leer">
                </div>
                <div class="grid-item" id="gefüllt">
-                 <h2> Repos </h2>
-                 <p> > <a href="https://github.com/mxrixs/Startpage/tree/master"> Sp Moon </a></p>
-                 <p> > <a href="hehe.html"> hehe </a></p>
+                 <h2><a href="https://github.com/"> Git </a></h2>
+                 <p> > <a href="https://github.com/mxrixs/Startpage1"> Sp Moon </a></p>
+                 <p> > <a href="https://github.com/mxrixs/Startpage2"> Sp Gifs </a></p>
+                 <p> > <a href="https://github.com/orgs/187Strassenbande/dashboard"> Gang </a></p>
                </div>
                <div class="grid-item" id="leer">
                </div>
                <div class="grid-item" id="gefüllt">
-                 <h2> Repos </h2>
-                 <p> > <a href="https://github.com/mxrixs/Startpage/tree/master"> Sp Moon </a></p>
-                 <p> > <a href="hehe.html"> hehe </a></p>
+                 <h2> ---- </h2>
+                 <p> > <a href=""> ---- </a></p>
+                 <p> > <a href=""> ---- </a></p>
                </div>
                <div class="grid-item" id="leer">
                </div>
           </div class="links">
+        </div>
+        <div class="tableGame">
+      		<table>
+      			<tr>
+      				<td id="0"></td>
+      				<td id="1"></td>
+      				<td id="2"></td>
+      			</tr>
+      			<tr>
+      				<td id="3"></td>
+      				<td id="4"></td>
+      				<td id="5"></td>
+      			</tr>
+      			<tr>
+      				<td id="6"></td>
+      				<td id="7"></td>
+      				<td id="8"></td>
+      			</tr>
+      		</table>
+      	</div>
         </main>
-      </div>
     </body>
   </html>
