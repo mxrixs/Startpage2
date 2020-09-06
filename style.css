@@ -1,8 +1,5 @@
-@media (viewport <= 1000px) {
-  .imageContainer{
-    width: 60vw;
-    height; 40vw;
-  }
+body{
+  background-color: #03161A;
 }
 h1{
   text-size: 25px;
