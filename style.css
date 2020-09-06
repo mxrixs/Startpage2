@@ -10,24 +10,26 @@ h1{
   font-family: 'Nunito', sans-serif;
   font-weight: 600;
 }
-h2{
+a{
+  color: #6AFFED;
+  text-decoration:
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  margin: 0.37em;
+  color: #03161A;
+}
+.Link-header, h2{
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   font-size: 1.4em;
   margin: 0.3em;
   text-align: center;
-}
-a{
-  color: #6AFFED;
-  text-decoration:
-  font-family: 'Nunito', sans-serif;
-  font-weight: 200;
-  text-decoration: none;
-  margin: 0.27em;
+  color: #03161A;
 }
 a:focus,
 a:hover {
-  color: #4CB5A8;
+  color: #03161A;
 }
 p{
   font-family: 'Nunito', sans-serif;
@@ -35,11 +37,12 @@ p{
   font-size: 0.8em;
   margin: 0.34em;
   padding-left: 0.4em;
+  color: #03161A;
 }
 img{
   margin-left: 10%;
   border-style: solid;
-  border-color: aqua;
+  border-color: #6AFFED;
   border-radius: 5px;
   box-shadow: 2px 2px 5px #111;
 }
@@ -81,28 +84,28 @@ td{
 	box-shadow: 0 0 5px #03161A;
 }
 main{
-  background-color: teal;
+  background-color: #03161A;
   border-style: solid;
-  border-color: teal;
+  border-color: #03161A;
   border-radius: 6px;
 }
 .grid-container {
   display: grid;
   grid-template-columns: 13.11112vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 13.11112vw;
-  background-color: teal;
+  background-color: #03161A;
 }
 .grid-item {
   font-size: 17px;
   text-align: center;
   display: inline-block;
   border-style: solid;
-  border-color: #03161A;
+  border-color: #6AFFED;
   border-radius: 4%;
-  background-color: #03161A;
+  background-color: #6AFFED;
   text-align: left;
 }
 #leer{
-  background-color: teal;
+  background-color: #03161A;
   border-style: none;
 }
 #gefüllt{
@@ -117,12 +120,12 @@ main{
 input {
   width: 50vw;
   height: 2vw;
-  background-color: teal;
+  background-color: #03161A;
   border-radius: 4em;
-  color: rgb(3, 22, 26);
+  color: #6AFFED;
   text-align: left;
   border-style: double;
-  border-color: rgb(3, 22, 26);
+  border-color: #07333C;
   border-width: 0.8vw;
   font-size: 0.68em;
   margin-bottom: 2vw;
