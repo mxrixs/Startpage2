@@ -70,15 +70,15 @@ img{
   visibility: visible;
 }
 td{
-	padding:2px;
-	text-align: center;
-	width: 7vw;
-	height: 7vw;
-	font-size: 30px;
-	transition: 0.2s ease;
-	outline: none;
-	border-radius: 10px;
-	box-shadow: 0 0 5px #03161A;
+  padding:2px;
+  text-align: center;
+  width: 7vw;
+  height: 7vw;
+  font-size: 30px;
+  transition: 0.2s ease;
+  outline: none;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #03161A;
 }
 main{
   background-color: #03161A;
