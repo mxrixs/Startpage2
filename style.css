@@ -118,7 +118,7 @@ input {
   width: 50vw;
   height: 2vw;
   background-color: teal;
-  border-radius: 2em;
+  border-radius: 4em;
   color: rgb(3, 22, 26);
   text-align: left;
   border-style: double;
