@@ -1,3 +1,35 @@
+
+Skip to content
+Pulls
+Issues
+Marketplace
+Explore
+@mxrixs
+mxrixs /
+Startpage2
+
+1
+0
+
+    0
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+
+More
+Startpage2/style.css
+@mxrixs
+mxrixs Update style.css
+Latest commit 0cfbd70 1 hour ago
+History
+1 contributor
+135 lines (135 sloc) 2.42 KB
 @media (viewport <= 1000px) {
   .imageContainer{
     width: 60vw;
@@ -7,30 +39,35 @@
 .cards{
   color: #6AFFED;
 }
-.Header, a{
-  font-family: 'M PLUS Rounded 1c', sans-serif;
-  font-weight: 800;
-  font-size: 1.4rem;
-  margin: 0.3rem;
-  text-align: center;
-  color:  #03161A ;
-  text-decoration: none;
-}
 #Links{
   color: #6AFFED;
   text-decoration:
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
   text-decoration: none;
-  font-size: 0.95em;
+  margin: 0.37em;
   color: #03161A;
+}
+.Header{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
+  font-size: 1.4em;
+  margin: 0.3em;
+  text-align: center;
+  color:  #03161A ;
 }
 a:focus,
 a:hover {
   color: #03161A;
 }
+a{
+  color: none;
+}
 p{
-  margin: 0.27em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  font-size: 0.8em;
+  margin: 0.34em;
   padding-left: 0.4em;
   color: #03161A;
 }
@@ -54,7 +91,7 @@ img{
 }
 .deer{
   Width: 50%;
-  transform: translateX(73.1%)
+  transform: translateX(73%)
              translateY(-23%);
 }
 .fish{
@@ -68,7 +105,7 @@ img{
   visibility: visible;
 }
 td{
-	padding: 0.4em;
+	padding:2px;
 	text-align: center;
 	width: 7vw;
 	height: 7vw;
@@ -107,13 +144,13 @@ main{
   box-shadow: 0px 1px 0px #03161A;
 }
 .searchbar{
-  width: 100vw;
+  position: sticky; left: 20vw;
 }
 input {
   width: 45em;
   height: 2em;
   background-color: #03161A;
-  border-radius: 10em;
+  border-radius: 4em;
   color: #6AFFED;
   text-align: left;
   border-style: double;
@@ -121,7 +158,10 @@ input {
   border-width: 1em;
   font-size: 0.68em;
   margin-bottom: 2vw;
-  padding-left: 0.7em;
-  margin: 2em auto 2em !important;
+  padding-left: 0.6em;
+}
 #searchbar{
+  width: 100%;
+    margin-bottom: 3vw;
+    margin-top: 3vw;
 }
