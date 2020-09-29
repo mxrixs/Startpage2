@@ -1,13 +1,13 @@
-body{
-  background-color: #03161A;
+@media (viewport <= 1000px) {
+  .imageContainer{
+    width: 60vw;
+    height; 40vw;
+  }
 }
-h1{
-  text-size: 25px;
-  margin-left: 4em;
-  font-family: 'Nunito', sans-serif;
-  font-weight: 600;
+.cards{
+  color: #6AFFED;
 }
-a{
+#Links{
   color: #6AFFED;
   text-decoration:
   font-family: 'Nunito', sans-serif;
@@ -16,21 +16,24 @@ a{
   margin: 0.37em;
   color: #03161A;
 }
-.Link-header, h2{
-  font-family: 'Nunito', sans-serif;
-  font-weight: 300;
+.Header{
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: 800;
   font-size: 1.4em;
   margin: 0.3em;
   text-align: center;
-  color: #03161A;
+  color:  #03161A ;
 }
 a:focus,
 a:hover {
   color: #03161A;
 }
+a{
+  color: none;
+}
 p{
   font-family: 'Nunito', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 0.8em;
   margin: 0.34em;
   padding-left: 0.4em;
@@ -70,15 +73,15 @@ img{
   visibility: visible;
 }
 td{
-  padding:2px;
-  text-align: center;
-  width: 7vw;
-  height: 7vw;
-  font-size: 30px;
-  transition: 0.2s ease;
-  outline: none;
-  border-radius: 10px;
-  box-shadow: 0 0 5px #03161A;
+	padding:2px;
+	text-align: center;
+	width: 7vw;
+	height: 7vw;
+	font-size: 30px;
+	transition: 0.2s ease;
+	outline: none;
+	border-radius: 10px;
+	box-shadow: 0 0 5px #03161A;
 }
 main{
   background-color: #03161A;
@@ -88,16 +91,16 @@ main{
 }
 .grid-container {
   display: grid;
-  grid-template-columns: 13.11112vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 13.11112vw;
+  grid-template-columns: 13.1111vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 2vw 16.66667vw 13.1111vw;
   background-color: #03161A;
 }
 .grid-item {
-  font-size: 17px;
+  font-size: 1.3em;
   text-align: center;
   display: inline-block;
   border-style: solid;
   border-color: #6AFFED;
-  border-radius: 4%;
+  border-radius: 1em;
   background-color: #6AFFED;
   text-align: left;
 }
@@ -108,32 +111,27 @@ main{
 #gefüllt{
   box-shadow: 0px 1px 0px #03161A;
 }
-.links{
-  color: #6AFFED;
-}
 .searchbar{
-  position: sticky; left: 25vw;
+  position: sticky; left: 20vw;
 }
 input {
-  width: 50vw;
-  height: 2vw;
+  width: 45em;
+  height: 2em;
   background-color: #03161A;
   border-radius: 4em;
   color: #6AFFED;
   text-align: left;
   border-style: double;
   border-color: #07333C;
-  border-width: 0.8vw;
+  border-width: 1em;
   font-size: 0.68em;
   margin-bottom: 2vw;
   padding-left: 0.6em;
 }
 form {
-  margin: 0;
-  text-align: center;
   margin-bottom: 3vw;
   margin-top: 3vw;
 }
 #searchbar{
-  grid-template-columns: 25vw 50vw 25vw;
+  position: sticky; left: 25vw;
 }
