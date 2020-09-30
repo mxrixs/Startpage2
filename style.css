@@ -110,6 +110,7 @@ main{
   width: 100vw;
 }
 input {
+  display: block;
   width: 45em;
   height: 2em;
   background-color: #03161A;
@@ -120,7 +121,7 @@ input {
   border-color: #07333C;
   border-width: 1em;
   font-size: 0.68em;
-  margin-bottom: 2vw;
+  margin-bottom: 3vw;
   padding-left: 0.7em;
   margin: 2em auto 2em !important;
 #searchbar{
