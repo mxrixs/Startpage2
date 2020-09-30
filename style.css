@@ -83,7 +83,7 @@ td{
 	border-radius: 10px;
 	box-shadow: 0 0 5px #03161A;
 }
-main{
+main, body{
   background-color: #03161A;
   border-style: solid;
   border-color: #03161A;
