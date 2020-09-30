@@ -113,10 +113,9 @@ main, body{
 }
 .searchbar{
   position: sticky; left: 25vw;
-  position: sticky; left: 20vw;
-
 }
 input {
+  display: block;
   width: 50vw;
   width: 45em;
   height: 2vw;
