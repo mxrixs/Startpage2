@@ -121,8 +121,6 @@ input {
   border-color: #07333C;
   border-width: 1em;
   font-size: 0.68em;
-  margin-bottom: 3vw;
   padding-left: 0.7em;
-  margin: 2em auto 2em !important;
-#searchbar{
+  margin: 2em auto 4vw !important;
 }
